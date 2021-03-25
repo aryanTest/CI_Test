@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("aryanTest/https://github.com/aryanTest/CI_Test.git")
+        app = docker.build("aryanTest/CI_Test")
     }
 
     stage('Test image') {
